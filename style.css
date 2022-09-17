@@ -1,0 +1,469 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.mech{
+  width: 600px;
+  margin: 1px auto;
+  display:block;
+  left: 800px;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 300px;
+}
+
+.button-mech{
+  width: 400px;
+  height: 500px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px;
+  position: relative;
+  bottom: 870px;
+  left: 800px;
+}
+.button-mech:hover{
+  cursor: pointer;
+}
+
+.button-organize{
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px;
+  position: relative;
+  bottom: 1235px;
+  left: 385px;
+}
+.button-organize:hover{
+  cursor: pointer;
+}
+
+.button-photoshop{
+  width: 250px;
+  height: 250px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px;
+  position: relative;
+  bottom: 600px;
+  left: 100px;
+  
+}
+.button-photoshop:hover{
+  cursor: pointer;
+  overflow-y: hidden;
+}
+
+.iphone{
+  width: 600px;
+  margin: 1px auto;
+  display:block;
+  left: 200px;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 400px;
+}
+
+.photoshop{
+  width: 250px;
+  margin: 1px auto;
+  display:block;
+  left: 600px;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 100px;
+}
+
+.Home{
+  width:100%;
+  height:100vh;
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.Back{
+  background-image: url(images/back\ \(1\).png);
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 99px;
+  top: 10px;
+  left: 0px;
+  position:absolute;
+}
+
+.about{
+  width:100%;
+  height:100vh;
+  background-image: url(images/Starry.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.skills{
+  width:100%;
+  height:100vh;
+  background-image: url(https://media4.giphy.com/media/3og0IFrHkIglEOg8Ba/giphy.gif?cid=ecf05e47haj07bj7msl3ptu5u1d4t2grpbe5kxi3ii9t5muk&rid=giphy.gif&ct=g);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.projects{
+  background-image: url(images/Technical\ Projects.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overscroll-behavior-y: hidden;
+
+}
+
+.git{
+  background-image: url(images/github.png);
+  width: 100px;
+  height: 100px;
+  border-radius: 99px;
+  top: 450px;
+  left: 400px;
+  position:relative;
+}
+.git:hover{
+  background-color:white;
+  color:black;
+  opacity: 1000;
+  cursor: pointer;
+}
+
+.link{
+  background-image: url(images/LinkedIn_icon_circle.svg.png);
+  width: 100px;
+  height: 100px;
+  border-radius: 99px;
+  top: 450px;
+  left: 690px;
+  position:relative;
+}
+.link:hover{
+  background-color:white;
+  color:black;
+  opacity: 1000;
+  cursor: pointer;
+}
+
+.outlook{
+  background-image: url(images/Outlook.png);
+  width: 100px;
+  height: 100px;
+  border-radius: 99px;
+  top: 450px;
+  left: 1050px;
+  position:relative;
+}
+.outlook:hover{
+  background-color:white;
+  color:black;
+  opacity: 1000;
+  cursor: pointer;
+}
+
+.logo{
+width: 400px;
+margin: 1px auto;
+display:block;
+left: 640px;}
+
+.logo1{
+  width: 800px;
+  margin: 1px auto;
+  display:block;
+  left: 640px;}
+
+
+.navbar{
+  width: 85%;
+  height: 15%;
+  margin:auto;
+  display:flex;
+}
+.content{
+  color:aquamarine;
+  position:absolute;
+  top: 10%;
+  right: 35%;
+  font-size: 50;
+  font-style: oblique; 
+  font-weight: bolder;
+  transform: translateY(-50%)
+}
+.star img{
+  width:50px;
+  animation: star 4s linear infinite;
+}
+.star{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 500;
+}
+
+.rocket img{
+  width:50px;
+  animation: rocket 10s linear infinite;
+}
+.rocket{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 100;
+}
+
+.rover img{
+  width:50px;
+  animation: rover 10s linear infinite;
+}
+.rover{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 100;
+}
+
+.meteor img{
+  width:50px;
+  animation: meteor 10s linear infinite;
+}
+.meteor{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 100;
+}
+
+.ufo img{
+  width:50px;
+  animation: ufo 10s linear infinite;
+}
+.ufo{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 500px;
+}
+
+  .button-skills{
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 50px;
+    border: 2px;
+    transition: background-color 2s; 
+    position: relative;
+    top: 290;
+    left: 81.2%;
+    z-index: 1;
+    font-weight: 900;
+  
+  }
+  .button-skills:hover{
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .button-projects{
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 50px;
+    border: 2px;
+    transition: background-color 2s; 
+    position: relative;
+    top: 290;
+    left: 43.5%;
+    z-index: 1;
+    font-weight: 900;
+  
+  }
+  .button-projects:hover{
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .button-About{
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 50px;
+    border: 2px;
+    transition: background-color 2s; 
+    position: relative;
+    top: 290;
+    left: 5.8%;
+    z-index: 1;
+    font-weight: 900;
+  
+  }
+  .button-About:hover{
+    background-color: black;
+    cursor: pointer;
+  }
+
+
+  @keyframes rover{
+    0%{
+        transform: translateX(-110vh) translateY(15vh);
+        opacity: 1;
+    }
+    100%{
+      transform: translateX(110vh) translateY(-5vh); 
+      opacity: 1;
+    }
+}
+.rover img:nth-child(1){
+  animation-delay: 0s;
+  width: 100px;
+}
+
+@keyframes meteor{
+  0%{
+      transform: translateX(-110vh) translateY(-90vh);
+      opacity: .5;
+  }
+  100%{
+    transform: translateX(110vh) translateY(0vh); 
+    opacity: 0;
+  }
+  
+}
+.meteor img:nth-child(1){
+  animation-delay: 0s;
+  width: 100px;
+}
+.meteor img:nth-child(2){
+  animation-delay: 0s;
+  width: 100px;
+}
+.meteor img:nth-child(3){
+  animation-delay: 0s;
+  width: 100px;
+}
+
+  @keyframes rocket{
+    0%{
+        transform: translateX(-110vh) translateY(0vh);
+        opacity: 1;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    70%{
+      opacity: 0.25;
+    }
+    100%{
+      transform: translateX(110vh) translateY(-120vh); 
+      opacity: 0.0005;
+    }
+    
+}
+.rocket img:nth-child(1){
+  animation-delay: 0s;
+  width: 100px;
+}
+
+
+@keyframes star{
+    0%{
+        transform: scale(6) ;
+        opacity: 1;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    70%{
+      opacity: 1;
+    }
+    100%{
+      transform: scale(10) ;
+      opacity: 0.5;
+    }
+}
+
+.star img:nth-child(1){
+  animation-delay: 1s;
+  width: 25px;
+}
+.star img:nth-child(2){
+  animation-delay: 1.5s;
+  width: 25px;
+}
+.star img:nth-child(3){
+  animation-delay: 2s;
+  width: 25px;
+}
+
+@keyframes ufo{
+  0%{
+      transform: scale(5) translateX(0px) translateY(0px);
+      opacity: 1;
+  } 
+  50%{
+    transform: translateX(100px) translateY(-100px);
+    opacity: 0.9;
+  }
+  70%{
+    transform: translateX(500px) translateY(-500px);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(6) translateX(0px) translateY(300px);
+    opacity: 0.9;
+  }
+}
+
+.ufo img:nth-child(1){
+animation-delay: 0s;
+width: 50px;
+}
+.ufo img:nth-child(2){
+animation-delay: 1s;
+width: 50px;
+}
+.ufo img:nth-child(3){
+animation-delay: 2s;
+width: 50px;
+}
+  .ufo img:nth-child(4){
+  animation-delay: 3s;
+  width: 50px;
+  }
+  .ufo img:nth-child(5){
+  animation-delay: 4s;
+  width: 50px;
+  }
+  .ufo img:nth-child(6){
+    animation-delay: 5s;
+    width: 50px;
+  }
